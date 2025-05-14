@@ -1,0 +1,34 @@
+[project]
+name = "veel-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "colorlog>=6.9.0",
+    "fastapi>=0.115.12",
+    "graphviz>=0.20.3",
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.23",
+    "langchain-core>=0.3.59",
+    "langchain-ollama>=0.3.2",
+    "langchain-openai>=0.3.16",
+    "langgraph>=0.4.3",
+    "matplotlib>=3.10.1",
+    "networkx>=3.4.2",
+    "ollama>=0.4.8",
+    "openai>=1.77.0",
+    "pydantic>=2.11.4",
+    "pygraph>=0.3.0",
+    "pyppeteer>=2.0.0",
+    "python-dotenv>=1.1.0",
+    "pytrends>=4.9.2",
+    "requests>=2.32.3",
+    "serpapi>=0.1.5",
+    "uvicorn>=0.34.2",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.8",
+]
